@@ -312,3 +312,6 @@ body {
 .nav-text{
   font-size: clamp(1rem, 0.8rem + 0.7692vw, 1.3rem);
 }
+.custom-transition {
+  transition-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+}
