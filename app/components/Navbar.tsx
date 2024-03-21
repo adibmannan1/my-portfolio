@@ -28,7 +28,7 @@ const Navbar = () => {
                         {logo: linkedin, link:'https://www.linkedin.com/'}
                     ]
   return (
-    <header className='w-full px-10 sm:px-20 lg:px-32 py-8 font-bold flex items-center justify-between nav-text fixed top-0 left-0'>
+    <header className='w-full px-5 sm:px-10 md:px-20 lg:px-32 md:py-16 lg:py-8 font-bold flex items-center justify-between nav-text fixed top-0 left-0'>
         <nav>
             {navItems.map((item, index) => (
                 <Link href={item.link} key={item.name} 
