@@ -6,6 +6,7 @@ import Link from "next/link";
 import DownloadIcon from "./components/DownloadIcon";
 
 export default function Home() {
+
   return (
     <main className="text-dark px-5 sm:px-10 md:px-20 lg:px-32 w-full sm:h-screen
     flex items-center justify-center">
@@ -17,8 +18,6 @@ export default function Home() {
         </div>
 
         <div className="sm:w-1/2 sm:h-[450px] flex flex-col justify-between">
-
-          {/* <h1 className="text-6xl font-extrabold">Turn Your Idea Into Reality With Code And Colors.</h1> */}
           <AnimatedText text="Turn Your Idea Into Reality With Code And Colors." className="text-4xl xl:text-6xl font-extrabold -mt-3"/>
           <p className="mt-6 sm:mt-0 text-lg md:text-xl font-medium">
           As a skilled frontend developer, I work on helping businesses turn their vision into innovative web applications. Applications that are appealing to users. Feel free to talk with me about your project or problems related to web development.
