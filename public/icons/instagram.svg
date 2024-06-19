@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 447.99 447.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="-341.66" cy="1702.32" fx="-341.66" fy="1702.32" r="111.69" gradientTransform="translate(1874.82 8959.92) scale(5 -5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fd5"/>
+      <stop offset=".33" stop-color="#ff543f"/>
+      <stop offset=".35" stop-color="#fc5245"/>
+      <stop offset=".5" stop-color="#e64771"/>
+      <stop offset=".64" stop-color="#d53e91"/>
+      <stop offset=".76" stop-color="#cc39a4"/>
+      <stop offset=".84" stop-color="#c837ab"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-360.55" cy="1993.09" fx="-360.55" fy="1993.09" r="74.16" gradientTransform="translate(1874.82 6634.4) scale(5 -3.33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4168c9"/>
+      <stop offset="1" stop-color="#4168c9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path class="cls-3" d="M348.59,447.76l-248.75.24c-54.73.05-99.54-44.68-99.6-99.4L0,99.84C-.05,45.11,44.68.3,99.4.24L348.16,0c54.73-.05,99.54,44.68,99.6,99.4l.24,248.75c.06,54.74-44.68,99.55-99.4,99.6Z"/>
+  <path class="cls-2" d="M348.59,447.76l-248.75.24c-54.73.05-99.54-44.68-99.6-99.4L0,99.84C-.05,45.11,44.68.3,99.4.24L348.16,0c54.73-.05,99.54,44.68,99.6,99.4l.24,248.75c.06,54.74-44.68,99.55-99.4,99.6Z"/>
+  <path class="cls-1" d="M224,311.07c-48,0-87.06-39.05-87.06-87.06s39.07-87.06,87.06-87.06,87.06,39.05,87.06,87.06-39.07,87.06-87.06,87.06ZM224,161.81c-34.29,0-62.19,27.9-62.19,62.19s27.9,62.19,62.19,62.19,62.19-27.9,62.19-62.19-27.9-62.19-62.19-62.19Z"/>
+  <circle class="cls-1" cx="317.29" cy="130.72" r="18.66"/>
+  <path class="cls-1" d="M298.63,385.69h-149.25c-48,0-87.06-39.05-87.06-87.06v-149.25c0-48.01,39.07-87.06,87.06-87.06h149.25c48,0,87.06,39.05,87.06,87.06v149.25c0,48.01-39.07,87.06-87.06,87.06ZM149.38,87.19c-34.29,0-62.19,27.9-62.19,62.19v149.25c0,34.29,27.9,62.19,62.19,62.19h149.25c34.29,0,62.19-27.9,62.19-62.19v-149.25c0-34.29-27.9-62.19-62.19-62.19h-149.25Z"/>
+</svg>
