@@ -28,7 +28,7 @@ const config = {
     extend: {
       colors: {
         light: "#FCFEFF",
-        dark: "#000319",
+        dark: "#000315",
         accent: "#CBACF9",
         primaryDark: "#58E6D9",
       },
@@ -39,6 +39,14 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        aurora: {
+          from: {
+            backgroundPosition: "50% 50%, 50% 50%",
+          },
+          to: {
+            backgroundPosition: "350% 50%, 350% 50%",
+          },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -97,6 +105,7 @@ const config = {
       },
       animation: {
         'spin-slow': 'spin 5s linear infinite',
+        aurora: "aurora 60s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",
@@ -118,6 +127,7 @@ const config = {
     },
   },
   plugins: [
+    [addVariablesForColors],
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
@@ -155,5 +165,4 @@ function addVariablesForColors({ addBase, theme }: any) {
     ":root": newVars,
   });
 }
-
 export default config;
