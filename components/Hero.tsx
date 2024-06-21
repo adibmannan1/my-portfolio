@@ -26,10 +26,10 @@ const Hero = () => {
           <div className="flex items-center self-start gap-7">
 
           <Link href="/resume.pdf" target="_blank" download={true}>
-            <Button title='Resume' position='right' icon={<DownloadIcon color="#C8D0DA"/>}/>
+            <Button title='Resume' position='right' icon={<DownloadIcon color="#f5f5f5"/>}/>
           </Link>
 
-          <a className="flex items-center text-dark rounded py-2.5 px-6 font-bold uppercase tracking-[2px] border-[3px] border-dark hover:bg-dark hover:text-light transition ease-in-out" href="#about" >About me</a>
+          <a className="flex items-center text-light rounded py-2.5 px-6 font-bold uppercase tracking-[2px] border-[3px] border-dark hover:bg-dark hover:text-light transition ease-in-out" href="#about" >About me</a>
 
           </div>
           

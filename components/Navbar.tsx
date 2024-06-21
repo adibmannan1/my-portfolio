@@ -31,7 +31,7 @@ const Navbar = () => {
         <nav>
             {navItems.map((item, index) => (
                 <Link href={item.link} key={item.name} 
-                className={`${index===(navItems.length - 1)? 'mr-0' : 'mr-4'} transition duration-500 ease-in-out relative group rounded px-3 py-2 cursor-pointer ${pathName === item.link ? 'bg-gray-300' : ''}`}>
+                className={`${index===(navItems.length - 1)? 'mr-0' : 'mr-4'} transition duration-500 ease-in-out relative group rounded px-3 py-2 cursor-pointer ${pathName === item.link ? 'bg-[#ffffff1f]' : ''}`}>
                     {item.name}
                     
                     <span className='h-[3px] w-0 bg-dark inline-block absolute left-0 -bottom-1 group-hover:w-full transition-[width] duration-500 custom-transition'>&nbsp;</span>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 
             ))}
         </nav>
-        <div className='absolute left-1/2 top-2 -translate-x-1/2 hidden xl:flex'><Logo/></div>
+
         <nav className='flex gap-5 items-center'>
         {socials.map((item, index) => (
             <Link href={item.link} target='_blank' key={index} className='hover:translate-y-[-3px] transition duration-200 ease-in-out'>
